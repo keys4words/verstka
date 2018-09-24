@@ -1,0 +1,17 @@
+body{
+	background: rgba(0, 150, 0);
+}
+
+h2{
+	color: #177;
+}
+
+a{
+	color: #fff;
+}
+#some-item{
+	border-bottom: 3px solid #f90;
+}
+.paragraph_class{
+	color: #177;
+}
