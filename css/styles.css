@@ -1,9 +1,31 @@
 body{
-	background: rgba(0, 150, 0);
+	/*
+	background-image: url(../img/logo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top center;
+	*/
+	background: fixed url("../img/logo.jpg") top center no-repeat;
+	background-size: cover;
 }
 
 h2{
 	color: #177;
+}
+
+.menu_main{
+	width: 300px;
+	background: rgba(10, 180, 30, 0.5);
+	padding: 30px;
+	box-shadow: 10px 10px 20px #222;
+}
+.menu_2{
+	width: 300px;
+	background: linear-gradient(45deg, #f90, #C5DDE8);
+	margin: 50px;
+	box-shadow: 10px 10px 20px #222;
+	border: 3px solid rgba(10, 180, 30, 0.5);
 }
 
 a{
