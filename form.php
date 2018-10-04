@@ -7,20 +7,20 @@
 		$phone = trim($_POST['phone']);
 		
 		//валидация введенных в форму данных
-		if(false){
-			
+		if($name == "" || $phone == ""){
+			$msg = 'Заполните все поля';
 		}
-		else if(false){
-			
-			//$msg = 'Ошибка ввода';
+		else if(mb_strlen($name, 'UTF-8') < 2){
+			$msg = 'Имя не короче 2 символов';
+		}
+		else if(!ctype_digit($phone)){
+			$msg = 'Телефон только из цифр';
 		}
 		else{
 			file_put_contents('apps.txt', "$dt $name $phone", FILE_APPEND);
 			mail('admin@localhost.ru', 'New order', "$dt $name $phone");
 			$msg = 'Заявка принята! Ждите!!!';
 		}
-		
-		
 		
 	}else{
 		//просто зашел на страничку
@@ -30,7 +30,8 @@
 
 ?>
 
-
+<?php 
+	if(true) {?>
 <form method="post" action="">
 	Имя<br>
 	<input type="text" name="name"><br>
@@ -39,6 +40,7 @@
 	<button>Заказать звонок</button>
 
 </form>
+	<?php }?>
 
 <div>
 	<?php echo $msg; ?>
