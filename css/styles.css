@@ -68,3 +68,39 @@ a{
 .gallery-row img:hover{
 	transform: scale(1.1);
 }
+
+.gallery-item{
+	text-align: center;
+	background: blue;
+	margin: 5px;
+}
+
+.gallery-1{
+	overflow: hidden;
+}
+
+.gallery-1 .gallery-item{
+	float: left;
+}
+
+.gallery-2{
+	text-align: center;
+}
+
+.gallery2-item {
+	display:inline-block;
+	background: blue;
+	margin: 5px;
+	vertical-align: top;
+}
+
+.gallery-3{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.gallery3-item {
+	background: blue;
+	margin: 5px;
+}

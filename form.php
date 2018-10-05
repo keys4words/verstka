@@ -1,4 +1,5 @@
 <?php
+	$done = false;
 	if($_SERVER['REQUEST_METHOD'] === 'POST'){
 		//пытается заказать звонок
 		
@@ -19,11 +20,15 @@
 		else{
 			file_put_contents('apps.txt', "$dt $name $phone", FILE_APPEND);
 			mail('admin@localhost.ru', 'New order', "$dt $name $phone");
+			
+			$done = true;
 			$msg = 'Заявка принята! Ждите!!!';
 		}
 		
 	}else{
 		//просто зашел на страничку
+		$name = '';
+		$phone = '';
 		$msg = 'Введите данные и мы перезвоним';
 	}
 
@@ -31,12 +36,12 @@
 ?>
 
 <?php 
-	if(true) {?>
+	if(!$done) {?>
 <form method="post" action="">
 	Имя<br>
-	<input type="text" name="name"><br>
+	<input type="text" name="name" value="<?php echo $name; ?>"><br>
 	Телефон<br>
-	<input type="text" name="phone"><br>
+	<input type="text" name="phone" value="<?php echo $phone; ?>"><br>
 	<button>Заказать звонок</button>
 
 </form>
