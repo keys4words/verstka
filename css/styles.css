@@ -22,11 +22,22 @@ h2{
 	box-shadow: 10px 10px 20px #222;
 }
 .menu_2{
+    list-style-type: none;
+    background-color: #FFFFFF;
 	width: 300px;
-	background: linear-gradient(45deg, #f90, #C5DDE8);
-	margin: 50px;
+	margin: 30px;
 	box-shadow: 10px 10px 20px #222;
 	border: 3px solid rgba(10, 180, 30, 0.5);
+}
+
+.menu_2 li{
+    background-image: url("../img/star.png");
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    padding-left: 30px;
+}
+.menu_2 li a{
+    color: black;
 }
 
 a{
