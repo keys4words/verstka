@@ -20,6 +20,7 @@ h2{
 	background: rgba(10, 180, 30, 0.5);
 	padding: 30px;
 	box-shadow: 10px 10px 20px #222;
+	text-decoration: none;
 }
 .menu_2{
 	width: 300px;
@@ -31,6 +32,7 @@ h2{
 
 a{
 	color: #fff;
+	text-decoration: none;
 }
 #some-item{
 	border-bottom: 3px solid #f90;
@@ -108,4 +110,17 @@ a{
 .html5{
 	font-family: roboto;
 	font-size: 20px;
+}
+
+.menu_main a:hover{
+	color: red;
+	transition: 0.5s;
+}
+
+.menu_main a:active{
+	color: red;
+}
+.video{
+	display: block;
+	width: 300px;
 }
