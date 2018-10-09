@@ -1,0 +1,23 @@
+body {
+    margin-top: 100px;
+    background: #aaa;
+}
+
+#wrapper {
+    width: 400px;
+    height: 400px;
+    background: #777;
+    margin: 0 auto;
+}
+
+#header{
+    width: 200px;
+    height: 200px;
+    background: #ff0;
+}
+
+#menu{
+    width: 100px;
+    height: 100px;
+    background: #00f;
+}
