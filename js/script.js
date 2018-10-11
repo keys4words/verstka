@@ -14,8 +14,10 @@ function print_object(obj){
 
 
 var text = document.querySelector('#text');
-print_object(text);
-/*text.onclick = function(){
-	//text.style.color = 'red';
+print_object(text.style);
+text.onclick = function(){
+	text.style.color = 'red';
+	text.style.fontsize = '30px';
 	text.innerHTML += ' hurra';
-}*/
+	text.className = 'test';
+}
