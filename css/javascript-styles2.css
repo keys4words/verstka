@@ -4,10 +4,25 @@ html, body, ul, li {
 }
 
 #gallery{
-	width: 860px;
+	width: 870px;
 	margin: 0 auto;
+	text-align: center;
 }
 
-#gallery.photos img{
-	width: 100%;
+#gallery .photos{
+	position: relative;
+	height: 380px;
 }
+
+#gallery .photos img{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+#gallery .photos img.active{
+	opacity: 1;
+}
+
