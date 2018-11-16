@@ -15,7 +15,7 @@ img{
 	width:756px;
 	margin: 0 auto;
 }
-.header{
+header{
 	padding: 30px 0 0 0;
 	margin-bottom: 20px;
 }
@@ -84,7 +84,7 @@ img{
 .content-right h2{
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
-.footer{
+footer{
 	padding: 15px 0 20px 30px;
 	color: #a1a0a7;
 }
