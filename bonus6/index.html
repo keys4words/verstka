@@ -23,8 +23,69 @@
 		<source src="3lab.ogg" type="audio/ogg">
 	</audio>	
 	<p>Ваш браузер не может воспроизводить аудио.<a href="#">скачать</a></p>
-
 	
+	<section>
+		<h2>Canvas processing...</h2>
+		<canvas width="600" height="600" id="example">
+		</canvas>
+	</section>
+	
+	<section>
+		<h2>GeoLocation</h2>
+		
+	</section>
+
+	<script>
+		var ctx = document.getElementById('example').getContext('2d');
+		ctx.fillStyle = 'black';
+		ctx.fillRect(20,20, 160, 40);
+		
+		ctx.strokeStyle = 'green';
+		ctx.lineWidth = 2;
+		ctx.strokeRect(200, 200, 50, 100);
+		
+		ctx.beginPath();
+		ctx.moveTo(50, 400);
+		ctx.lineTo(450, 400);
+		ctx.lineTo(450, 600);
+		ctx.lineTo(350, 600);
+		ctx.closePath();
+		ctx.strokeStyle = 'blue';
+		ctx.lineWidth = 3;
+		ctx.stroke();
+		
+		function getCoordinat(){
+			navigator.geolocation.getCurrentPosition(showCoordinat, showError);
+		}
+		
+		function showCoordinat(position){
+			document.write('Широта: ' + position.coords.latitude + '<br>')
+			document.write('Долгота: ' + position.coords.longitude + '<br>')
+			document.write('Точность: ' + position.coords.accuracy + '<br>')
+		}
+		
+		function showError(error){
+			switch(error.code){
+				case error.PERMISSION_DENIED:
+					alert('Пользователь запретил считывать информацию о его местоположении');
+					break;
+					
+				case error.POSITION_UNAVAILABLE:
+					alert('Браузер не смог определить местоположение пользователя');
+					break;
+					
+				case error.TIMEOUT:
+					alert('Браузер не успел определить местоположение за выделенное ему время');
+					break;
+			
+				case error.UNKNOWN_ERROR:
+					alert('Произошла неопределенная ошибка');
+					
+			}
+		}
+		getCoordinat();
+		
+	</script>
 </body>
 
 </html>
