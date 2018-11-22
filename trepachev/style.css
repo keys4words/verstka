@@ -1,0 +1,28 @@
+a:link, a:visited{
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
+a{
+	background-color: #c0c0c0;
+	display: block;
+	/* height: 100px; */
+	padding: 30px 0;
+	/* font-size: 25px; */
+	/* line-height: 155px; */
+}
+
+
+li{
+	display: inline-block;
+	border: 1px solid blue;
+	/*width: 150px;*/
+	/* height: 100px; */
+	/* vertical-align: middle; */
+	margin: 0;
+}
