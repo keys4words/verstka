@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Popup form practice</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700,900" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		
+		
+	</head>
+	
+	<body>
+		<!-- Popup form section -->
+		<div class="container">
+			<div class="popup-overlay"><!-- //оверлей - отображение формы на затемненном фоне -->
+				<div class="popWindow subscribe_window"><!-- //основное окно формы Подписки -->
+					<p class="subcsribe-text">Subscribe to receive news and information</p>
+					<form class="subscribe-form" autocomplete="off">
+						<div>
+							<input type="hidden" name="project_name" value="Avtoholms">
+							<input type="hidden" name="admin_email" value="holms.avto@yandex.ru">
+							<input type="hidden" name="form_subject" value="Phone order">
+							
+							<input type="text" id="name-subscribe" name="Name" placeholder=" " required>
+							<label for="name-subscribe">Name <span>*</span></label>
+						</div>
+						<div>
+							<input type="email" id="email-subscribe" name="E-mail" placeholder=" " required>
+							<label for="email-subscribe">Email <span>*</span></label>
+						</div>
+						<div class="aligncenter">
+							<button type="submit" class="btn"><i class="fa fa-check" aria-hidden="true"></i> Subscribe</button>
+						</div>
+						<div class="req-fields"><sup>*</sup> required fields</div>
+					</form>
+					<div class="close-btn">&times;
+					</div>
+				</div><!-- /subscribe_window -->
+ 
+				<div class="popWindow thank_you_window"><!-- //благодарственное окно после успешной отправки формы -->
+					<p class="thank_you_title">Thank you for subscribing!</p>
+					<p class="thank_you_body">We've sent some useful tips to your email. Go ahead and check them now!</p>
+					<div class="close-btn">&times;
+					</div>
+				</div><!-- /thank_you_window -->
+			</div><!-- /popup-overlay -->
+		</div><!-- .container -->
+	
+	<div class='container'>
+		<h2>Checking results:</h2>
+		<hr>
+		<p class="paragraph_class">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+		<button class="myBtnClass">Order phone</button>
+	</div>
+	
+		<script src="scripts/jquery-3.3.1.js"></script>
+		<!-- script src="scripts/jquery.cookie.min.js"></script-->
+		<script src='scripts/script.js'></script>
+	</body>
+</html>
