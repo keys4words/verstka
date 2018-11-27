@@ -9,16 +9,42 @@ body{
 	background-color: grey;
 }
 
+/* .element{ */
+	/* width: 300px; */
+	/* height: 250px; */
+	/* margin: 20px auto; */
+	/* background: #fff url('../images/3.jpg') no-repeat; */
+	/* background-size: contain; */
+	/* background-size: cover; */
+/* } */
+/* .element2{ */
+	/* border: 20px solid rgba(0, 0, 0, 0.2); */
+	/* padding: 20px; */
+	/* background-size: 300px; */
+	/* background-origin: border-box; */
+	/* background-clip: padding-box; */
+/* } */
+
 .element{
-	width: 300px;
-	height: 250px;
+	width: 600px;
+	height: 375px;
 	margin: 20px auto;
-	background: #fff url('../images/2.jpg') no-repeat;
-	background-size: contain;
-	background-size: cover;
+	background: 
+		url('../images/2.jpg') no-repeat,
+		url('../images/1.jpg') no-repeat,
+		url('../images/3.jpg') no-repeat;
+		
+	background-size: 200px, 80px, auto;
+	/* background-position: 300px 120px, 100px 120px, center; */
+	background-position: right 50px bottom 5px, left 10px bottom 20px, bottom;
+	
 }
 .element2{
-	border: 20 solid rgba(0, 0, 0, 0.2);
-	padding: 20px;
-	background-size: 300px;
+	width: 600px;
+	height: 375px;
+	margin: 20px auto;
+	background: #fff url('../images/1.jpg');
+	background-size: 250px;
+	background-repeat: no-repeat space;
+	
 }
