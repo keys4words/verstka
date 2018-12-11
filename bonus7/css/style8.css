@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+.block {
+	margin: 20px auto;
+	/* column-count: 4; */
+	/* column-width: 250px; */
+	columns: 4 150px;
+	column-gap: 40px;
+	column-rule: 2px solid blue;
+}
+

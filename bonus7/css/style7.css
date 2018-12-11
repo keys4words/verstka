@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	background-color: grey;
+}
+
+.block, .block2, .block3, .block4{
+	width: 500px;
+	height: 300px;
+	margin: 20px auto;
+}
+
+.block{
+	background-color: #000;
+	/* background-image: radial-gradient(circle closest-side at center center, white 30%, blue 50%); */
+	background-image: repeating-radial-gradient(circle closest-side at center center, white 30%, brown 50%, white 60%);
+}
+
+.block2{
+	background-color: #f00;
+	background-image: radial-gradient(circle closest-corner at center center, white, blue);
+}
+
+.block3{
+	background-color: #0f0;
+	background-image: radial-gradient(circle farthest-side at center center, white, black);
+}
+
+.block4{
+	background-color: #00f;
+	background-image: radial-gradient(circle at center center, white, red);
+}
