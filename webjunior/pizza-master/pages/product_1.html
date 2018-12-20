@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pizza</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="shortcut icon" href="../favicon.ico">
+</head>
+<body>
+<div class="wrapper">
+	<div id="tel">
+		<a href="tel:12119413636"><img src="../img/tel.png" alt="tel"></a>
+	</div>
+	<header>
+		<div class="logo">
+			<img src="../img/logo.png" alt="pizza">
+		</div>
+	</header>
+	<hr>
+	<nav>
+		<ul class="menu clearfix">
+			<li><a href="../index.html">home</a></li>
+			<li>
+				<a href="products.html">products</a>
+				<ul class="sub_menu">
+					<li><a class="active" href="product_1.html">Mozzarella</a></li>
+					<li><a href="product_2.html">Pizza Man</a></li>
+					<li><a href="product_3.html">Pizza Bacon</a></li>
+				</ul>
+			</li>
+			<li><a href="news.html">news</a></li>
+			<li><a href="contacts.html">contacts</a></li>
+		</ul>
+	</nav>
+	<hr>
+	<section class="main clearfix">
+		<figure>
+			<div class="products">					
+				<img src="../img/Pizza_de_Mozarella_1.jpg" alt="mozzarella">
+				<!-- <figcaption>Pizza Mozzarella</figcaption> -->
+			</div>
+		</figure>
+		<div class="ingridients">
+			<h3>Pizza Mozzarella</h3>
+			<ul class="order">
+				<li class="title_p">Dough/Flour
+					<ul>
+						<li class="title_in">Bleached wheat flour, sugar, soy oil, salt, yeast, corn syrup solids, sodium caseinate (a milk derivative), mono and diglycerides, potassium bromate and enzymes.</li>					
+					</ul>
+				</li>
+				<li class="title_p">Pizza Dough Mix
+					<ul>
+						<li class="title_in">Sugar, yeast and corn/soybean oil.</li>
+					</ul>
+				</li>
+				<li class="title_p">Deep Dish Pizza Dough Mix
+					<ul>
+						<li class="title_in">Salt, sugar, yeast.</li>
+					</ul>
+				</li>
+				<li class="title_p">Ultra Thin/Low Carb Pizza Dough
+					<ul>
+						<li class="title_in">Enriched bleached wheat flour (flour, niacin, reduced iron, thiamine monoitrate, riboflavin, folic acid, enzyme), water, partially hydrogenated soybean oil, soybean oil, yeast, sugar, salt, calcium propionate, L-cysteine.</li>
+					</ul>
+				</li>
+				<li class="title_p">Gluten Free Pizza Crust
+					<ul>
+						<li class="title_in">Rice Flour, Modified Rice Starch, Potato Starch, Olive Oil, Evaporated Cane Sugar, Tapioca Flour, Fresh Yeast, Salt, Xanthan Gum, Calcium Sulfate​</li>
+					</ul>
+				</li>			
+			</ul>
+		</div>
+
+		<div class="form_order">
+			<h3>Your Order:</h3>
+
+			<form action="../formdata.php" method="POST">
+				<label for="name">Name *</label>
+				<input type="text" name="name" id="name" placeholder="Your name" required>
+
+				<label for="phone">Phone *</label>
+				<input type="tel" name="phone" id="phone" required placeholder="Your phone">
+				
+				<label for="email">E-mail</label>
+				<input type="email" name="email" id="email" placeholder="Your e-mail">
+
+				<label for="more">Your wish</label>
+				<textarea name="more" id="more"></textarea>	
+
+				<input type="submit" value="order">
+				<input type="reset" value="reset">
+			</form>
+		</div>
+		
+	</section>
+
+	<footer>		
+		<p>&copy; Avenue Pizza 2017</p>
+		<address>
+			City: New York,<br>
+			92nd Street Y<br>
+			phone: +1 211-941-3636<br>
+			95014, USA
+		</address>
+	</footer>
+</div>
+
+
+</body>
+</html>
