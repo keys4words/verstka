@@ -1,0 +1,35 @@
+.grid{
+	width: 700px;
+	background: #bebebe;
+	margin: 0 auto;
+	padding: 0 0 0 20px;
+}
+.grid-col p{
+	height: 300px;
+	width: 200px;
+	float: left;
+	border: 2px solid black;
+}
+.column-two{
+	vertical-align: center;
+}
+.grid:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.inlineblock{
+	width: 700px;
+	background: #bebebe;
+	margin: 0 auto;
+	text-align: center;
+}
+.inline_col_block {
+	height: auto;
+	width: 200px;
+	display: inline-block;
+	vertical-align: top;
+	border: 2px solid black;
+}
+
