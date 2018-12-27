@@ -49,3 +49,22 @@ ul li{
 .block-1 ul:first-of-type{
 	background-color: #000;
 }
+.block-3 p:nth-child(2){
+	color: red;
+}
+.block-3 p:nth-of-type(3){
+	color: red;
+}
+.block-4 ul:only-of-type {
+	background-color: yellow;
+}
+.block-4 ul li:not(:nth-child(3)){
+	background-color: orange;
+}
+.block-4 p:empty {
+	border: 1px solid green;
+	height: 20px;
+}
+.block-4 p:target{
+	background-color: blue;
+}
