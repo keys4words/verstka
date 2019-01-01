@@ -1,0 +1,54 @@
+body{
+	background-color: white;
+}
+
+.container{
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+.block p{
+	margin: 15px 0;
+	font-size: 16px;
+}
+
+.block p:first-child::before{
+	content: "1) ";
+}
+.block p:nth-child(2)::after{
+	content: " *";
+	color: red;
+}
+
+.block p::first-line {
+	background-color: yellow;
+}
+
+.block p::first-letter{
+	font-size: 30px;
+	line-height: 30px;
+	color: red;
+}
+input{
+	width: 200px;
+	font-size: 20px;
+	color: #000;
+	padding: 10px;
+}
+
+input::placeholder{
+	color: red;
+	opacity: 1;
+}
+input::-webkit-input-placeholder{
+	color: red;
+	opacity: 1;
+}
+input::-ms-input-placeholder{
+	color: red;
+	opacity: 1;
+}
+input:-ms-input-placeholder{
+	color: red;
+	opacity: 1;
+}
