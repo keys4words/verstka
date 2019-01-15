@@ -1,0 +1,86 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.header{
+	background: #343c4e;
+	background-image: url("../img/bg/bg-header.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.header__title{
+	font-size: 56px;
+	margin-bottom: 30px;
+	margin-top: -50px;
+}
+
+.header__slogan{
+	font-size: 28px;
+	line-height: 42px;
+}
+
+.header__arrow{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-bottom: 5px solid #fff;
+	border-right: 5px solid #fff;
+	transform: rotateZ(45deg);
+	bottom: 50px;
+	left: 50%;
+}
+.portfolio{
+	padding: 100px 0;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.title{
+	margin-bottom: 46px;
+	font-size: 46px;
+	text-align: center;
+}
+
+.row{
+	display: flex;
+	justify-content: space-between;
+}
+
+.col-3{
+	width: 33.3%;
+	margin: 10px;
+}
+
+.portfolio__item__title{
+	font-size: 24px;
+	margin: 10px 0 5px 0;
+}
+
+.portfolio__item__title a{
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px solid #fff;
+}
+
+.portfolio__item__title a:hover{
+	color: #0052C2;
+	border-color: rgba(0, 82, 194, 0.3);
+}
+
+.portfolio__item__text p{
+	margin: 0 0 15px 0;
+}
