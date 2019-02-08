@@ -84,3 +84,48 @@ body{
 .portfolio__item__text p{
 	margin: 0 0 15px 0;
 }
+
+.footer{
+	background-color: #061634;
+	color: #6479a2;
+	padding-top: 90px;
+	padding-bottom: 190px;
+}
+
+.footer__name{
+	font-size: 28px;
+	margin: 0;
+}
+
+.footer__social{
+	color: #fff;
+}
+
+.footer__social-icons .icon{
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
+
+.footer__socian-icons a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.button__wrapper{
+	width: 80%;
+}
+
+.btn__vk{
+	display: block;
+	text-decoration: none;
+	margin-top: 20px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	padding: 8px 24px;
+}
+
