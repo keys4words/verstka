@@ -1,16 +1,42 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    font-weight: 400;
     line-height: 26px;
     color: #7581a1;
 }
 a{
     text-decoration: none;
 }
+
+.wrap{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.box-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 305px;
+}
+
+.logo{
+    background-image: url(../img/1-logo.png);
+    width: 181px;
+    height: 49px;
+    display: block;
+}
+
 h1{
     font-size: 80px;
     font-weight: 600;
     color: #192b59;
+    max-width: 540px;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    margin-bottom: 65px;
 }
 
 .nav{
@@ -19,8 +45,13 @@ h1{
     font-weight: 700;
     text-transform: uppercase;
     list-style-type: none;
+    display: flex;
     margin: 0;
     padding: 0;
+}
+
+.nav li{
+    padding: 0 20px;
 }
 
 .btn-free{
@@ -53,5 +84,66 @@ h1{
     color: #1085e4;
 }
 
+.btn-primary{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    color: #fff;
+    background-color: #1085e4;
+    border: 1px solid #1085e4;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+.btn-primary:hover{
+    color: #1085e4;
+    background-color: transparent;
+}
+
+.btn-secondary{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    color: #7e8bae;
+    background-color: #cbdbe8;
+    border: 1px solid #cbdbe8;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+.btn-secondary:hover {    
+    background-color: #fff;
+}
+
+.btn-group a {
+    margin-left: 16px;
+}
+
+.btn-info{
+    color: #8085b1;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 1px solid rgba(0, 0, 0, 0, 0.1);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+.btn-info:hover{
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #7e8bae;
+}
+
+.btn-free {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 21px 56px;
+    letter-spacing: 1.7px;
+}
 
 
