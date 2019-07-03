@@ -1,0 +1,33 @@
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5em;    
+}
+
+h1{
+    font-size: 32px;
+}
+
+.big-companies{
+    width: 100%;
+}
+
+figure{
+    float: right;
+}
+
+figcaption{
+    font-style: italic;
+}
+
+table{
+    border: 1px solid black;
+}
+
+td, th {
+    border: 1px solid black;
+}
