@@ -1,0 +1,208 @@
+body {
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.box {
+  width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+/* header */
+.top {
+  display: flex;
+  justify-content: center;
+  background-color: #007765;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 85px;
+  top: 0;
+  visibility: visible;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  background-color: #007765;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 85px;
+  bottom: 0;
+  visibility: hidden;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 24px;
+  text-align: center;
+}
+.navi {
+  color: white;
+  text-decoration: none;
+}
+/* jumbotron */
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 72px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 85px;
+}
+.jumbotron-title {
+  margin: 13% 0 13% 0;
+}
+/* problem */
+.problem {
+  display: flex;
+  justify-content: center;
+  background-color: #eeeeee;
+  padding-top: 2em;
+}
+.problem-title {
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 64px;
+  text-align: center;
+  color: #007765;
+}
+.problem-text {
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 92px;
+}
+/* hero */
+.hero {
+  display: flex;
+  justify-content: center;
+  background-image: url('../img/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  padding-top: 2em;
+}
+.hero-title {
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 48px;
+  text-align: center;
+  color: #ffffff;
+  margin: 9% 0 9% 0;
+}
+/* ppc */
+.ppc {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+.ppc-title {
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 64px;
+  text-align: center;
+  color: #007765;
+}
+.ppc-logo {
+  display: flex;
+  align-items: center;
+}
+.ppc-text-1 {
+  padding-left: 48px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 32px;
+  color: #000000;
+}
+.ppc-text-2 {
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 32px;
+  color: #000000;
+  padding-bottom: 60px;
+}
+/* team */
+.team {
+  display: flex;
+  justify-content: center;
+  background-color: #eeeeee;
+  padding-top: 2em;
+}
+.team-title {
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 64px;
+  text-align: center;
+  color: #007765;
+}
+.members {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.member-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-basis: 33%;
+  padding-bottom: 5%;
+}
+.name {
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 24px;
+  color: #007765;
+}
+.post {
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  color: #000000;
+}
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  background: #333333;
+  padding-bottom: 85px;
+}
+.footer-title {
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  margin: 5.5% 0 5.5% 0;
+}
