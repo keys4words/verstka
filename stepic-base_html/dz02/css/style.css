@@ -1,8 +1,32 @@
-body{
-    width: 2011px;
+html{
+    margin: 0;
+    padding: 0;
 }
 
-.prelogo{
-    height: 84px;
+body{
+    width: 2011px;
+    margin: auto;
+}
+
+.nav{
     background-color: #007765;
+    display: flex;
+    justify-content: center;
+    height: 84px;
+}
+
+.logo{
+    margin: 0 auto;
+    padding: 1.5% 0;
+}
+
+.menu{
+    margin: 0 auto;
+    padding: 1.5% 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.header_pic{
+    background: url('../img/jumbotron.png');
 }
