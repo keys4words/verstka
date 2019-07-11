@@ -27,6 +27,12 @@ body{
     display: flex;
 }
 
+.menu li a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
 .header_pic{
     background: url('../img/jumbotron.png');
 }

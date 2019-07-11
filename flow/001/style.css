@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    font-family: 'BMWTypeWebLightAll','Helvetica','Arial',sans-serif;
+    color: #fff;
+}
+
+.layout{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    max-height: 80vh;
+    padding: 5vw;
+    padding-top: 30vh;
+    background-size: cover;
+}
+
+.card-tag{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 45px;
+}
+
+.card-title{
+    display: block;
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -1.2px;
+}
+
+.card-button{
+    display: inline-block;
+    min-width: 180px;
+    padding: 0 20px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background .3s cubic-bezier(1,0,0,1), color .3s cubic-bezier(1.0,0,1);
+    line-height: 270%;
+    border: 4px solid #fff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.card-button:hover{
+    color: #262626;
+    background-color: #fff;
+}
+
+.block-100{
+
+}
+
+.block-50{
+
+}
+
+@media screen and (max-width: 992px){
+    .block-50{
+        width: 50%;
+    }
+}
+
+
+
