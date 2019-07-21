@@ -59,9 +59,12 @@
     <hr>
     <h1>Subscribe now!</h1>
     <form action="/thankyou-page.html" method="GET">
-        Input your name: <input type="text" name="name" id="" placeholder="Input your name"><br>
-        Input your email: <input type="email" name="email" id="" placeholder="email"><br>
-        Input your password: <input type="password" name="pass" id=""><br>
+        <label for="id-name">Input your name: </label>
+        <input type="text" name="name" id="id-name" placeholder="Input your name" required><br>
+        <label for="id-email">Input your email:</label>
+        <input type="email" name="email" id="" placeholder="email"><br>
+        <label for="id-pass">Input your password:</label>
+        <input type="password" name="pass" id=""><br>
         <input type="submit" value="Submit">
     </form>
     
