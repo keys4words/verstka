@@ -57,7 +57,7 @@
         </tbody>
     </table>
     <hr>
-    <h1>Subscribe now!</h1>
+    <!-- <h1>Subscribe now!</h1>
     <form action="/thankyou-page.html" method="GET">
         <label for="id-name">Input your name: </label>
         <input type="text" name="name" id="id-name" placeholder="Input your name" required><br>
@@ -67,6 +67,98 @@
         <input type="password" name="pass" id=""><br>
         <input type="submit" value="Submit">
     </form>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <p>Do you prefer cats or dogs?</p>
+
+    <form action="">
+        <label for="dogs">Dogs:</label>    
+        <input name="petChoice" type="radio" id='dogs' value="DOGS">
+
+        <label for="cats">Cats:</label>
+        <input name="petChoice" type="radio" id="cats" value="CATS">
+        
+        <p>What's your current mood?</p>
+        <select name="mood">
+            <option value="happy">:)</option>
+            <option value="neutral">:|</option>
+            <option value="sad">:(</option>
+        </select>
+
+        <br>
+        <textarea name="paragraph" id="" cols="50" rows="10"></textarea>
+
+        <button>Go!</button>
+    </form> -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <h1>Register</h1>
+    <form action="">
+        <div>
+            <label for="firstName">First Name:</label>
+            <input type="text" name="first" id="firstName" placeholder="John" required>
+            
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="last" id="lastName" placeholder="Smith" required>
+        </div>
+        <br>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other" value="other">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="your email" required>
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" id="pass" pattern=".{5,10}" required title="Password must be between 5 and 10 characters" required>
+        </div>
+        <br>
+        <div>
+            <label>Birthday:
+                <select name="month">
+                    <option>Month</option>
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>March</option>
+                </select>
+                <select name="day">
+                    <option>Day</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+                <select name="year">
+                    <option>Year</option>
+                    <option>1999</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                </select>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="terms">I agree with the terms and conditions</label>
+            <input type="checkbox" name="agreed" id="terms">
+        </div>
+        <br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     
 </body>
 </html>
