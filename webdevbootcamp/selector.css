@@ -1,0 +1,15 @@
+li a{
+    color: red;
+}
+
+h4 + ul {
+    border: 2px solid red;
+}
+
+a[href="https://www.google.com"]{
+    background: blue;
+}
+
+li:nth-child(3){
+    border: 1px solid green;
+}
