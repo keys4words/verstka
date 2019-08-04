@@ -1,0 +1,17 @@
+p{
+    font-family: Arial;
+    font-weight: 100;
+    line-height: 1.5;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    text-align: center;
+}
+span{
+    font-size: 2.0em;
+}
+p:nth-of-type(3){
+    font-family: 'Roboto', sans-serif;
+}
+
