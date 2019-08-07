@@ -1,0 +1,9 @@
+.pink{
+    border: 1px solid black;
+    background: pink;
+}
+.orange{
+    background: orange;
+    border: 1px dashed black;
+    height: 60px;
+}
