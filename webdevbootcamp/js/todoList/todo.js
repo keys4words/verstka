@@ -18,7 +18,7 @@ function showList(){
     console.log('*********************');
     todos.forEach(function(todo, i){
         console.log('#' + i + ": " + todo);
-    });
+    })
     console.log('*********************');
 }
 
