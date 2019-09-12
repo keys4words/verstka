@@ -1,0 +1,9 @@
+document.getElementById('first');
+document.querySelector('#first');
+document.getElementsByClassName('special');
+document.querySelector('.special');
+document.querySelectorAll('.special');
+document.getElementsByTagName('p')[0];
+document.querySelector('p');
+document.querySelectorAll('p');
+document.querySelectorAll("h1+p");
