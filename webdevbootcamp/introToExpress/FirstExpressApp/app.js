@@ -12,6 +12,7 @@ app.get("/bye", function(req, res){
 });
 // "/dog" => "GAV!!!"
 app.get("/dog", function(req, res){
+    console.log("someone made a request to /dog");
     res.send("GAV!!!");
 });
 
